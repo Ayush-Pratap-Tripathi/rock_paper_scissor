@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 2vh;
+    background-color: #422040;
+    height: auto;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    height: auto;
+    width: auto;
+   padding: 5vh;
+}
+
+.call {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#rock, #paper, #scissor {
+    height: 20vh;
+    width: 20vh;
+    margin: 5vh;
+    box-sizing: border-box;
+    border-radius: 52rem;
+    border: none;
+}
+
+.player, .computer {
+    margin: 10vh;
+    font-size: x-large;
+}
+
+.result {
+    padding: 10px;
+    font-size: xx-large;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    border-radius: 1rem;
+    color: white;
+    background-color: #1E2019;
+}
+
+#player-score, #comp-score {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.lost {
+    background-color: #88292F;
+    color: white;
+}
+
+.won {
+    background-color: green;
+    color: white;
+}
+
+#rock {
+    background-image: url(rock.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 52%;
+    background-position-y: 48%;
+}
+
+#paper {
+    background-image: url(paper.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 47%;
+    background-position-y: 44%;
+}
+
+#scissor {
+    background-image: url(scissor.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 54%;
+    background-position-y: center;
+}
+
+p {
+    text-align: center;
+}
+
+#resetBtn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: large;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #F0544F;
+}
